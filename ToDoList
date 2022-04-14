@@ -1,0 +1,19 @@
+04/14 To-Do-List
+Vanilla JA SPA Practice
+
+## Login
+
+1. input values - [o]
+2. Form Submission -[o]
+3. Event -[o]
+4. Getting Username [o]
+5. Saving Username - [o]
+6. Loading Username - [o]
+7. Super Recap - [o]
+
+## self reflection
+
+1. if 조건문 작성할 때 에러처리 먼저
+2. 반복되는 string 많을때는 변수로 저장
+3. 간단한 logic은 콜백함수 arrow function으로 처리(일일이 function....func...f...너무 많다!)
+4. 함수 파라미터에 대한 이해 부족!
