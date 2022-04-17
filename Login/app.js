@@ -1,28 +1,40 @@
 const loginForm = document.querySelector("#Login-form");
 const loginInput = document.querySelector("#Login-form input");
 const goToLink = document.querySelector("#link");
-const user = loginInput.value;
-const USERNAME_KEY = localStorage.setItem("username", user);
+const USERNAME_KEY = "username";
 const HIDDEN_CLASSNAME = "hidden";
 
 function onLoginSubmit(event) {
   const username = loginInput.value;
-  if (username != "hyukskee") {
-    alert("아이디 틀렸다");
+  localStorage.setItem(USERNAME_KEY, username);
+  if (savedUsername != "hyukskee") {
+    event.preventDefault();
+    console.log(`null or error`);
   } else {
     event.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
     goToLink.classList.remove(HIDDEN_CLASSNAME);
   }
 }
-
-function paintGreetings() {
-  const username = localStorage.getItem(user);
+const savedUsername = localStorage.getItem(USERNAME_KEY);
+if (savedUsername == null) {
+  // show the form
+  loginForm.classList.remove(HIDDEN_CLASSNAME);
+  loginForm.addEventListener("submit", onLoginSubmit);
+} else {
+  // show the greeting
+  loginForm.classList.add(HIDDEN_CLASSNAME);
+  goToLink.classList.remove(HIDDEN_CLASSNAME);
 }
+
+/* function paintGreetings() {
+  loginForm.classList.add(HIDDEN_CLASSNAME);
+  goToLink.classList.remove(HIDDEN_CLASSNAME);
+} */
 /* loginInput.addEventListener("keypress", (e) => {
   const userInfo = e.target.value;
   console.log(e.key);
   console.log(userInfo);
 }); */
 
-loginForm.addEventListener("submit", onLoginSubmit);
+/* loginForm.addEventListener("submit", onLoginSubmit); */
