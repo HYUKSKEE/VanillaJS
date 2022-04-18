@@ -17,3 +17,19 @@ Vanilla JA SPA Practice
 2. 반복되는 string 많을때는 변수로 저장
 3. 간단한 logic은 콜백함수 arrow function으로 처리(일일이 function....func...f...너무 많다!)
 4. 함수 파라미터에 대한 이해 부족!
+
+
+04/18 To-Do-List
+
+## Clock
+
+1. Intervals - [o]
+2. Timeouts and Dates - [o]
+3. PadStart - [o]
+4. Recap - [o]
+
+##Quote and BackgrounImage
+####random()활용하기
+1. Quotes - [o]  
+2. backgruond - [o]
+3. Recap - [o]
