@@ -33,3 +33,17 @@ Vanilla JA SPA Practice
 1. Quotes - [o]  
 2. backgruond - [o]
 3. Recap - [o]
+
+04/19 To-Do-List
+
+## PART 7. TO DO LIST
+
+1. Setuo - [o]
+2. Adding toDos - [o]
+3. Deleting To Dos - [o]
+4. Saving To Dos - [o]
+~~7.6 강의 한사이클 돌리기
+
+Next To Do
+1. 로컬스토리지에 저장한 todolists 를 array로 활용(JSON.Pharse활용)
+2. getItem으로 가져온 각각의 element를 forEach를 활용해 화면에 뿌려주기
