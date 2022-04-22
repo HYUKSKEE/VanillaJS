@@ -8,17 +8,21 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="" method="get" id="Login-form">
-      <h1>암호를 대시오!</h1>
-      <input
-        type="text"
-        placeholder="What is your name"
-        required
-        minlength="5"
-        maxlength="15"
-      />
-      <input type="submit" value="Log In" />
-    </form>
+    <header>
+      <form action="" method="get" id="Login-form" class="password">
+        <h1>암호를 대시오!</h1>
+        <input
+          type="text"
+          placeholder="What is your name"
+          required
+          minlength="5"
+          maxlength="15"
+          class="input1"
+        />
+        <input type="submit" value="Log In" class="input2" />
+      </form>
+    </header>
+
     <section id="link" class="hidden">
       <a
         class="link"
@@ -43,15 +47,17 @@
         <span></span>
       </div>
     </section>
-    <form id="todo-form" class="hidden">
-      <input
-        class="todoInput"
-        type="text"
-        placeholder="Write a To Do and Press Enter"
-        required
-      />
-    </form>
-    <ul id="toDoList" class="toDoList"></ul>
+    <section id="todo-form" class="hidden">
+      <form>
+        <input
+          class="todoInput"
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="toDoList" class="toDoList"></ul>
+    </section>
     <script src="./js/login.js"></script>
     <script src="./js/clock.js"></script>
     <script src="./js/quotes.js"></script>
