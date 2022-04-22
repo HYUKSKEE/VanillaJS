@@ -9,6 +9,7 @@
   </head>
   <body>
     <form action="" method="get" id="Login-form">
+      <h1>암호를 대시오!</h1>
       <input
         type="text"
         placeholder="What is your name"
@@ -18,18 +19,39 @@
       />
       <input type="submit" value="Log In" />
     </form>
-    <a id="link" class="hidden" href="https://www.youtube.com" target="_blank"
-      >Go to YOUTUBE</a
-    >
-    <h2 id="clock"></h2>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
+    <section id="link" class="hidden">
+      <a
+        class="link"
+        href="https://edu.goorm.io/learn/lecture/20583/%25EA%25B9%2580%25EB%25B2%2584%25EA%25B7%25B8%25EC%259D%2598-html-css%25EB%258A%2594-%25EC%259E%25AC%25EB%25B0%258C%25EB%258B%25A4"
+        target="_blank"
+        title="Go to KimBug"
+        >📘</a
+      >
+      <a
+        class="link"
+        href="https://nomadcoders.co/javascript-for-beginners/lectures/2875"
+        target="_blank"
+        title="Go to VanillaJS"
+        >📒</a
+      >
+    </section>
+
+    <section id="todo-section" class="hidden">
+      <h2 id="clock" class="clock"></h2>
+      <div id="quote" class="quote">
+        <span></span><br />
+        <span></span>
+      </div>
+    </section>
+    <form id="todo-form" class="hidden">
+      <input
+        class="todoInput"
+        type="text"
+        placeholder="Write a To Do and Press Enter"
+        required
+      />
     </form>
-    <ul id="toDoList"></ul>
+    <ul id="toDoList" class="toDoList"></ul>
     <script src="./js/login.js"></script>
     <script src="./js/clock.js"></script>
     <script src="./js/quotes.js"></script>

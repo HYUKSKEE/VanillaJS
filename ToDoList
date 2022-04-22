@@ -42,8 +42,23 @@ Vanilla JA SPA Practice
 2. Adding toDos - [o]
 3. Deleting To Dos - [o]
 4. Saving To Dos - [o]
-~~7.6 강의 한사이클 돌리기
+~~7.6 강의 한사이클 돌리기 - [o]
 
 Next To Do
 1. 로컬스토리지에 저장한 todolists 를 array로 활용(JSON.Pharse활용)
 2. getItem으로 가져온 각각의 element를 forEach를 활용해 화면에 뿌려주기
+
+04/20 To-Do-List
+
+1. Deleting To Dos part One - [x]
+2. Deleting To Dos part Two - [x]
+3. Deleting To Dos part Three - [x]
+
+04/22 To-Do-List
+
+1. Deleting To Dos part One - [o]
+2. Deleting To Dos part Two - [o] filter 기능 선택사항
+3. Deleting To Dos part Three - [o]
+
+4. ToDoList Project 완성하기 - [o]
+
