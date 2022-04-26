@@ -22,6 +22,10 @@ Img {
   color: aliceblue;
 }
 
+.input-parents {
+  margin-bottom: 10px;
+}
+
 .input1 {
   width: 225px;
   height: 19px;
