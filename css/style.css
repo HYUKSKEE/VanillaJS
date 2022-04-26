@@ -30,9 +30,17 @@ Img {
   width: 225px;
   height: 19px;
   margin: auto;
-  border: 1px solid rgb(151, 95, 240);
-  border-radius: 3px;
+  border: none;
+  border-bottom: 1px solid white;
   text-align: center;
+  background-color: rgb(0, 0, 0, 0.01);
+  color: white;
+}
+.input1::placeholder {
+  color: white;
+}
+.input1:focus {
+  outline: none;
 }
 .input2 {
   width: 50px;
@@ -74,9 +82,18 @@ Img {
   width: 500px;
   height: 20px;
   margin: auto;
-  border: 3px solid rgb(151, 95, 240);
-  border-radius: 10px;
+  border: none;
+  border-bottom: 3px solid white;
   text-align: center;
+  background-color: rgb(0, 0, 0, 0.01);
+  color: white;
+}
+
+.todoInput::placeholder {
+  color: aliceblue;
+}
+.todoInput:focus {
+  outline: none;
 }
 
 .toDoList {

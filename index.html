@@ -14,7 +14,9 @@
         <div class="input-parents">
           <input
             type="text"
-            placeholder="What is your name"
+            placeholder="What is your name?"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='What is your name?'"
             required
             minlength="5"
             maxlength="15"
@@ -55,6 +57,8 @@
           class="todoInput"
           type="text"
           placeholder="Write a To Do and Press Enter"
+          onfocus="this.placeholder = ''"
+          onblur="this.placeholder = 'Write a To Do and Press Enter'"
           required
         />
       </form>

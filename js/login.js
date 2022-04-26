@@ -11,7 +11,7 @@ function onLoginSubmit(event) {
   const username = loginInput.value;
   if (username != "hyukskee") {
     event.preventDefault();
-    console.log(`null or error`);
+    alert("암호가 틀리다!");
   } else {
     event.preventDefault();
     localStorage.setItem(USERNAME_KEY, username);
