@@ -6,7 +6,6 @@ const toDoSection = document.querySelector("#todo-section");
 const toDoFormShow = document.querySelector("#todo-form");
 const USERNAME_KEY = "username";
 const HIDDEN_CLASSNAME = "hidden";
-
 function onLoginSubmit(event) {
   const username = loginInput.value;
   if (username != "hyukskee") {
